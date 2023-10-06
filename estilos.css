@@ -100,30 +100,7 @@ button.btn.btn-info.btn-sm{
     }
 }
 
-/* @media(max-width:500px){
-    section{
-        flex-wrap: wrap;
-        
-    }
-    ul{  
-        flex-direction: column;
-    }
-    .row{
-        flex-direction: column;
-    }
-    .carousel-caption p{
-        justify-items: center;
-        margin-top: 15px;
-        padding: 5%;
-        font-size: 7px;
-        text-align: center;
 
-    }
-    .carousel-caption h5{
-        margin-top: 15px;
-    } 
-
-}*/
 textarea{
     resize: none;
     width: 100%;
