@@ -69,13 +69,21 @@
            list-style: none;
            font-family:Arial, Helvetica, sans-serif;
            text-align: center;
-           margin-bottom: 0% !important
-     
-}
+           margin-bottom: 0% !important     
+        }
 
-     li a{
+        li a{
          color: white;
-}
+        }
+        @media (max-width: 550px){
+            #contenedor{
+              flex-wrap: wrap;
+            }
+            ul{  
+              flex-direction: column;
+            }
+            
+        }
 
 
     </style>
@@ -153,8 +161,8 @@
               </select>
              <input type="text" value="Total a pagar: $  " id="resultado"><br>
             
-            <input type="button" class="formu" id="Borrarformu" value="Borrar" Onclick="borrar()">
-            <input type="button"  class="formu" value="Resumen" Onclick="resumen()">
+            <input type="button" class="formu bg bg-success" id="Borrarformu" value="Borrar" Onclick="borrar()">
+            <input type="button"  class="formu bg-success" value="Resumen" Onclick="resumen()">
         </form> 
     </div>
   
